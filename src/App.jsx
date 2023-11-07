@@ -1,11 +1,15 @@
-
+import React from "react"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./assets/Screens/Home";
 
 function App() {
 
   return (
-    <>
-      <h2 className='underline font-bold'>Hello world</h2>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<Home/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
