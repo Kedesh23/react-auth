@@ -17,7 +17,7 @@ export default function Login(){
                 </div>
                 <div className="flex flex-col items-center my-[1em]">
                     <form className="gap-5">
-                        <div className=" my-[2em]">
+                        <div className=" my-[1.5em]">
                             <p className="font-bold my-[1em]">Email</p>
                             <Input type = "text" placeholder = "Robert@gmail.com" className="bg-[#EEF2FF] border-[#EEF2FF] border-transparentm h-[3em] w-[35em] outline-none rounded-sm"/>
                         </div>
@@ -43,7 +43,7 @@ export default function Login(){
             <div className="bg-[#3D37A3] w-[50%] ">
                 <img src = "login.png" className="mt-[5em]"/>
                 <div className="mx-[7em] my-[5em]">
-                    <h1 className="text-gray-400 font-bold my-[2em]">ECOLE241.BUSINESS</h1>
+                    <h1 className="text-gray-400 text-lg font-bold my-[2em]">ECOLE241.BUSINESS</h1>
                     <p className="text-white text-3xl">Etudier en ligne devient plus facile - <br/> vous pouvez toujours etudier avec Ecole <br/> 241 Business</p>
                 </div>
             </div>
