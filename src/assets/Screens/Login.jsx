@@ -18,21 +18,21 @@ export default function Login(){
                 <div className="flex flex-col items-center my-[1em]">
                     <form className="gap-5" >
                         <div className=" my-[1.5em] flex flex-col">
-                            <label className="font-bold my-[1em]" htmlFor="email">Email</label>
-                            <Input type = "text" placeholder = "Robert@gmail.com" id = "Email" name = "email" className="bg-[#EEF2FF] border-[#EEF2FF] border-transparentm h-[3em] w-[35em] outline-none rounded-sm"/>
+                            <label className="font-bold my-[1em] text-lg" htmlFor="email">Email</label>
+                            <Input type = "text" placeholder = "Robert@gmail.com" id = "Email" name = "email" className="bg-[#EEF2FF] border-[#EEF2FF] h-[3em] w-[35em] outline-none rounded-sm"/>
                         </div>
                         <div>
                             <div className="flex justify-between my-[1em] items-center">
-                                <label className="font-bold my-[1em]" htmlFor="password">Mot de passe</label>
+                                <label className="font-bold my-[1em] text-lg" htmlFor="password">Mot de passe</label>
                                 <Link to="/Reset" className="font-bold text-lg text-[#3D37A3]">Mot de passe oublie?</Link>
                             </div>
-                            <Input type = "password" placeholder = "**********" id = "pwd" name = "password" className="bg-[#EEF2FF] border-[#EEF2FF] border-transparentm h-[3em] w-[35em] outline-none rounded-sm"/>
+                            <Input type = "password" placeholder = "**********" id = "pwd" name = "password" className="bg-[#EEF2FF] border-[#EEF2FF] h-[3em] w-[35em] outline-none rounded-sm"/>
                         </div>
                         <div className="flex gap-5 items-center my-[1em]">
                             <div className="w-[2em] h-[2em] bg-[#EEF2FF] rounded-lg"></div>
                             <p className="font-bold text-xl">Se souvenir de moi</p>
                         </div>
-                        <Button className="bg-[#3D37A3] text-white font-bold text-center px-[11.4em] py-[1em] rounded-lg text-xl" title="Connexion"/>
+                        <Button className="bg-[#3D37A3] text-white font-bold text-center w-full py-[1em] rounded-lg text-xl" title="Connexion"/>
                     </form>
                     <div className="flex justify-between items-center my-[1em] font-bold text-2xl gap-[5px]">
                         <p className="text-[#BCBFC5]">Vous n'avez pas un compte?</p>
