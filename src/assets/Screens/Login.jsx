@@ -24,7 +24,7 @@ export default function Login(){
                         <div>
                             <div className="flex justify-between my-[1em] items-center">
                                 <label className="font-bold my-[1em] text-lg" htmlFor="password">Mot de passe</label>
-                                <Link to="/Reset" className="font-bold text-lg text-[#3D37A3]">Mot de passe oublie?</Link>
+                                <Link to="/forgot" className="font-bold text-lg text-[#3D37A3]">Mot de passe oublie?</Link>
                             </div>
                             <Input type = "password" placeholder = "**********" id = "pwd" name = "password" className="bg-[#EEF2FF] border-[#EEF2FF] h-[3em] w-[35em] outline-none rounded-sm"/>
                         </div>
