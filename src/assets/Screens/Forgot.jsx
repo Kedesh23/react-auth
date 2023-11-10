@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function Forgot(){
     return(
-        <div className='flex justify-between'>
+        <div className='flex justify-between h-[100vh]'>
             <div className='w-[50%] h-full'>
                 <div className='ml-[7em] mt-[3em]'>
                     <Ecole/>

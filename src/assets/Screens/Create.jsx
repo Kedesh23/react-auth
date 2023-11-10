@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function(){
     return(
-        <div className='flex items-center h-full]'>
+        <div className='flex items-center'>
             <div className='w-[50%] h-full py-[2em]'> 
                 <div className='ml-[7em] mt-[3em]'>
                     <Ecole/>
@@ -45,7 +45,7 @@ export default function(){
 
             </div>
         
-            <div className="w-[1/2] h-[100%] bg-[#3D37A3]">
+            <div className="w-[1/2] h-[100vh] bg-[#3D37A3]">
                 <img src = "create.png" className='mt-[5em]'/>
                 <div className="mx-[7em] my-[5em]">
                     <h1 className="text-gray-400 text-lg font-bold my-[2em]">ECOLE241.BUSINESS</h1>

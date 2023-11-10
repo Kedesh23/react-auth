@@ -5,8 +5,8 @@ import Button from '../../Components/Button';
 
 export default function Reset(){
     return (
-        <div className='flex justify-between items-center'>
-            <div className="w-1/2 h-full">
+        <div className='flex justify-between items-center h-[100vh]'>
+            <div className="w-1/2 h-[100vh]">
                 <div className=" px-[9em] mt-[1em]">
                     <Ecole/>
                     <div className='my-[3em]'>
@@ -28,7 +28,7 @@ export default function Reset(){
                     </div>
                 </form>
             </div>
-            <div className="bg-[#3D37A3] w-1/2 h-full">
+            <div className="bg-[#3D37A3] w-1/2 h-[100vh]">
                 <img src = "reset.png" className="mt-[5em]"/>
                 <div className="mx-[7em] my-[5em]">
                     <h1 className="text-gray-400 text-lg font-bold my-[2em]">ECOLE241.BUSINESS</h1>
